@@ -1,0 +1,9 @@
+{
+    ".platform-darwin atom-text-editor": {
+      "shift-cmd-k": "slot-rtp-gacor:toggle-focus-of-active-pane"
+    },
+    ".platform-win32 atom-text-editor, .platform-linux atom-text-editor": {
+      "shift-alt-k": "slot-rtp-gacor:toggle-focus-of-active-pane"
+    }
+  }
+  

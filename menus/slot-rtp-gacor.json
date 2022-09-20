@@ -1,0 +1,35 @@
+{
+    "context-menu": {
+      "atom-text-editor": [
+        {
+          "label": "Toggle focus of active slot",
+          "command": "slot-rtp-gacor:toggle-focus-of-active-slot"
+        },
+        {
+          "label": "Toggle follow mode",
+          "command": "slot-rtp-gacor:toggle-follow-mode"
+        }
+      ]
+    },
+    "menu": [
+      {
+        "label": "Packages",
+        "submenu": [
+          {
+            "label": "Hey slot",
+            "submenu": [
+              {
+                "label": "Toggle focus of active slot",
+                "command": "slot-rtp-gacor:toggle-focus-of-active-slot"
+              },
+              {
+                "label": "Toggle follow mode",
+                "command": "slot-rtp-gacor:toggle-follow-mode"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
